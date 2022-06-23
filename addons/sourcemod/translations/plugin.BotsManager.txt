@@ -1,0 +1,540 @@
+﻿//Цвета
+// = Зеленый
+// = Светло зеленый
+// = Стандартный 
+////////////////////////////////
+//colors
+// = Green Color
+// = LightGreen Color
+// = Default Color
+///////////////////////////////
+
+
+"Phrases"
+{
+	"BOTS"
+	{
+		"ru"		"(̾●̮̮•̃̾)۶ ๖ۣۜۜБОТЫ"
+		"en"		"(̾●̮̮•̃̾)۶ ๖ۣۜۜBOTS"
+	}
+	"TitleMenuMain"
+	{
+		"ru"		"МЕНЮ"
+		"en"		"MENU"
+	}
+	"ItemAddRemoveBots"
+	{
+		"ru"		"Дбавить | Убрать ботов"
+		"en"		"Add|Remove bots"
+	}
+	"ItemSettings"
+	{
+		"ru"		"Настройки"
+		"en"		"Settings"
+	}
+	"ItemBotsExtraSettings"
+	{
+		"ru"		"Расширенные настройки БОТОВ"
+		"en"		"Extra Settings Bots"
+	}
+	"ItemHumansExtraSettings"
+	{
+		"ru"		"Расширенные настройки ИГРОКОВ"
+		"en"		"Extra Settings Humans"
+	}
+	"ItemBotsRestrict"
+	{
+		"ru"		"Ограничения оружия ботов"
+		"en"		"Restrict weapons"
+	}
+	"ItemBotsPrefixes"
+	{
+		"ru"		"ИЗМЕНЕНИЕ ПРЕФИКСОВ У БОТОВ [КЛАН ТЕГ]"
+		"en"		"bots prefixes (clan tag)"
+	}
+	"ItemAbout"
+	{
+		"ru"		"О плагине"
+		"en"		"Info"
+	}
+	"TitleAddBots"
+	{
+		"ru"		"Добавление|Удаление ботов"
+		"en"		"Add|Removes bots"
+	}
+	"ItemAddBotCT"
+	{
+		"ru"		"Добавить бота за КТ"
+		"en"		"Add bot CТ"
+	}
+	"ItemAddBotT"
+	{
+		"ru"		"Добавить бота за Т"
+		"en"		"Add bot Т"
+	}
+	"ItemBotCTKick"
+	{
+		"ru"		"Изменить имена Контр-террористов"
+		"en"		"Change Counter-terrorists bots names"
+	}
+	"ItemBotTKick"
+	{
+		"ru"		"Изменить имена Террористов"
+		"en"		"Change Terrorists bots names"
+	}
+	"ItemBotKill"
+	{
+		"ru"		"Убить ботов"
+		"en"		"Kill all bots"
+	}
+	"ItemBotKick"
+	{
+		"ru"		"Кикнуть (убрать) всех ботов"
+		"en"		"Kick (remove) all bots"
+	}
+	"ItemAutoteamBalanceOn"
+	{
+		"ru"		"Автобаланс комманд: - Выключено -"
+		"en"		"Auto Team Balance: - Disabled -"
+	}
+	"ItemAutoteamBalanceOff"
+	{
+		"ru"		"Авто Баланс Комманд: * Включено *"
+		"en"		"Auto Team Balance: * Enabled *"
+	}
+	"ItemBotSkillsNoobs"
+	{
+	"ru"		"Сложность: НУБЫ (easy)"
+	"en"		"Bots skill: NOOBS (easy)"
+	}
+	"ItemBotSkillsNormal"
+	{
+	"ru"		"Сложность: НОРМАЛЬНЫЕ (normal)"
+	"en"		"Bots skill: NORMAL (normal)"
+	}
+	"ItemBotSkillHard"
+	{
+	"ru"		"Сложность: СЛОЖНЫЕ (hard)"
+	"en"		"Bots skill: HARD (hard)"
+	}
+	"ItemBotSkillExperts"
+	{
+	"ru"		"Сложность: ЭКСПЕРТЫ (experts)"
+	"en"		"Bots skill: EXPERTS (experts)"
+	}
+	"ItemBotAutokillOff"
+	{
+		"ru"		"Убивать автоматически ботов: * Включено *"
+		"en"		"Auto Kill: * oN *"
+	}
+	"ItemBotAutokillOn"
+	{
+		"ru"		"Убивать автоматически ботов: - Выключено -"
+		"en"		"Auto Kill: - oFF -"
+	}
+	"ItemBotAutokillDelay"
+	{
+		"ru"		"Задержка перед AutoKill (min 0.5|max 9.0) : "
+		"en"		"Auto Kill delay (min 0.5|max 9.0) : "
+	}
+	"ItemBotAutokillBombPlantedOff"
+	{
+		"ru"		"Если установлена бомба?: * Да *"
+		"en"		"Auto Kill if Bomb Planted: * Yes *"
+	}
+	"ItemBotAutokillBombPlantedOn"
+	{
+		"ru"		"Если установлена бомба?: - Нет -"
+		"en"		"Auto Kill if Bomb Planted: - No -"
+	}
+	"ItemBotPingOff"
+	{
+		"ru"		"Маскировка (BOT) под пинг: * Включено *"
+		"en"		"Bot Ping: * oN *"
+	}
+	"ItemBotPingOn"
+	{
+		"ru"		"Маскировка (BOT) под пинг: - Выключено -"
+		"en"		"Bot Ping: * oFF *"
+	}
+	"ItemModels"
+	{
+		"ru"		"Модели"
+		"en"		"models"
+	}
+	"TitleModels"
+	{
+		"ru"		"Управление моделями ботов"
+		"en"		"bots models"
+	}
+	"ItemModelToTR"
+	{
+		"ru"		"Установить одну модель для всех ботов (Террористов) "
+		"en"		"change models for all bots (Terrorists) to "
+	}
+	"ItemModelToCT"
+	{
+		"ru"		"Установить одну модель для всех ботов (Контров) "
+		"en"		"change models for all bots (Counter - Terrorists) to "
+	}
+	"ItemBotChatOff"
+	{
+		"ru"		"Переговоры ботов: ВЫКЛЮЧЕНО"
+		"en"		"Bots chat: oFF"
+	}
+	"ItemBotChatRadio"
+	{
+		"ru"		"Переговоры ботов: РАДИО"
+		"en"		"Bots chat: RADIO"
+	}
+	"ItemBotChatMinimal"
+	{
+		"ru"		"Переговоры ботов: МИНИМАЛЬНО"
+		"en"		"Bots chat: MINIMAL"
+	}
+	"ItemBotChatNormal"
+	{
+		"ru"		"Переговоры ботов: НОРМАЛЬНО"
+		"en"		"Bots chat: NORMAL"
+	}
+	"ItemIncreaseBotsHp"
+	{
+		"ru"		"Увеличить >> кол - во здоровья у ботов"
+		"en"		"Increase >> Bots Health Amount"
+	}
+	"ItemDecreaseBotsHp"
+	{
+		"ru"		"Уменьшить << кол - во здоровья у ботов"
+		"en"		"Decrease << Bots Health Amount"
+	}
+	"ItemIncreaseBotsArmr"
+	{
+		"ru"		"Увеличить >> кол - во брони у ботов"
+		"en"		"Increase >> Bots Armour Amount"
+	}
+	"ItemDecreaseBotsArmr"
+	{
+		"ru"		"Уменьшить << кол - во брони у ботов"
+		"en"		"Decrease << Bots Armour Amount"
+	}
+	"ItemBotsHelmetOn"
+	{
+		"ru"		"Шлем у ботов: * Разрешено * "
+		"en"		"Bots Helmet: * Enabled *"
+	}
+	"ItemBotsHelmetOff"
+	{
+		"ru"		"Шлем у ботов: - Запрешено - "
+		"en"		"Bots Helmet:  - Disabled -"
+	}
+	"ItemIncreaseHumansHp"
+	{
+		"ru"		"Увеличить >> кол - во здоровья у игроков"
+		"en"		"Increase >> Humans Health Amount"
+	}
+	"ItemDecreaseHumansHp"
+	{
+		"ru"		"Уменьшить << кол - во здоровья у игроков"
+		"en"		"Decrease << Health Amount"
+	}
+	"ItemIncreaseHumansArmr"
+	{
+		"ru"		"Увеличить >> кол - во брони у игроков"
+		"en"		"Increase >> Humans Armour Amount"
+	}
+	"ItemDecreaseHumansArmr"
+	{
+		"ru"		"Уменьшить << кол - во брони у ботов"
+		"en"		"Decrease << Humans Armour Amount"
+	}
+	"ItemHumansHelmetOn"
+	{
+		"ru"		"Шлем у игроков: * Разрешено *"
+		"en"		"Humans Helmet: * Enabled *"
+	}
+	"ItemHumansHelmetOff"
+	{
+		"ru"		"Шлем у игроков: - Запрешено - "
+		"en"		"Humans Helmet:  - Disabled -"
+	}
+	"TitleBotsWeaponRestrict"
+	{
+		"ru"		"Ограничения оружия ботам"
+		"en"		"Bots restrict Weapons"
+	}
+	"ItemBotsPistolsOn"
+	{
+		"ru"		"Пистолеты: * Разрешено *"
+		"en"		"Pistols: * Enabled *"
+	}
+	"ItemBotsPistolsOff"
+	{
+		"ru"		"Пистолеты: - Запрешено -"
+		"en"		"Pistols: - Disabled -"
+	}
+	"ItemBotsSMGSOn"
+	{
+		"ru"		"Полу автоматы: * Разрешено *"
+		"en"		"SMGS: * Enabled *"
+	}
+	"ItemBotsSMGSOff"
+	{
+		"ru"		"Полу автоматы: - Запрешено -"
+		"en"		"SMGS: - Disabled -"
+	}
+	"ItemBotsMGSOn"
+	{
+		"ru"		"Автоматы: * Разрешено *"
+		"en"		"MGS: * Enabled *"
+	}
+	"ItemBotsMGSOff"
+	{
+		"ru"		"Автоматы: - Запрешено -"
+		"en"		"MGS: - Disabled -"
+	}
+	"ItemBotsShotGunsOn"
+	{
+		"ru"		"Дробовики: * Разрешено *"
+		"en"		"Shotguns: * Enabled *"
+	}
+	"ItemBotsShotGunsOff"
+	{
+		"ru"		"Дробовики: - Запрешено -"
+		"en"		"Shotguns: - Disabled -"
+	}
+	"ItemBotsRiflesOn"
+	{
+		"ru"		"Винтовки: * Разрешено *"
+		"en"		"Rifles: * Enabled *"
+	}
+	"ItemBotsRiflesOff"
+	{
+		"ru"		"Винтовки: - Запрешено -"
+		"en"		"Rifles: - Disabled -"
+	}
+	"ItemBotsSnipersOn"	
+	{
+		"ru"		"Снайперки: * Разрешено *"
+		"en"		"Snipers: * Enabled *"
+	}
+	"ItemBotsSnipersOff"	
+	{
+		"ru"		"Снайперки: - Запрешено -"
+		"en"		"Snipers: - Disabled -"
+	}
+	"ItemBotsHeOn"	
+	{
+		"ru"		"Гранаты: * Разрешено *"
+		"en"		"Grenades: * Enabled *"
+	}
+	"ItemBotsHeOff"	
+	{
+		"ru"		"Гранаты: - Запрешено -"
+		"en"		"Grenades: - Disabled -"
+	}
+	"TitlePrefixes"	
+	{
+		"ru"		"Префиксы ботов [Клан тег]"
+		"en"		"bots prefixes"
+	}
+	"ItemBotsPrefixesAllCT"	
+	{
+		"ru"		"КОНТР - ТЕРРОРИСТЫ"
+		"en"		"COUNTER - TERRORISTS"
+	}
+	"ItemBotsPrefixesAllTR"	
+	{
+		"ru"		"ТЕРРОРИСТЫ"
+		"en"		"COUNTER - TERRORISTS"
+	}
+	"ItemBotsPrefixCtNotFound"	
+	{
+		"ru"		"БОТОВ (КТ) НЕ ОБНАРУЖЕНО! СНАЧАЛО НУЖНО ИХ ДОБАВИТЬ"
+		"en"		"(CT) bots not found!"
+	}
+	"ItemBotsPrefixTrNotFound"	
+	{
+		"ru"		"БОТОВ (Т) НЕ ОБНАРУЖЕНО! СНАЧАЛО НУЖНО ИХ ДОБАВИТЬ"
+		"en"		"(T) bots not found!"
+	}
+	"ItemBotsPrefixCT"	
+	{
+		"ru"		"Изменить клан тег у (КТ) ботов\n[ЕСЛИ СЕЙЧАС ЕСТЬ ДРУГОЙ ПРЕФИКС СНАЧАЛО НАЖМИТЕ НА ПУНКТ \"УБРАТЬ ТЕКУЩИЙ КЛАН ТЕГ\"\nИ ТОЛЬКО ПОТОМ НАЖМИТЕ НА ЭТОТ ПУНКТ]"
+		"en"		"change prefix on (CT) bots\n[IF THERE IS NOW A DIFFERENT PREFIX first click on the item \"Remove CURRENT CLAN TAG \" \nONLY THEN CLICK ON THIS ITEM]"
+	}
+	"ItemBotsPrefixTR"	
+	{
+		"ru"		"Изменить клан тег у (Т) ботов\n[ЕСЛИ СЕЙЧАС ЕСТЬ ДРУГОЙ ПРЕФИКС СНАЧАЛО НАЖМИТЕ НА ПУНКТ \"УБРАТЬ ТЕКУЩИЙ КЛАН ТЕГ\"\nИ ТОЛЬКО ПОТОМ НАЖМИТЕ НА ЭТОТ ПУНКТ]"
+		"en"		"change prefix on (T) bots\n[IF THERE IS NOW A DIFFERENT PREFIX first click on the item \"Remove CURRENT CLAN TAG \" \nONLY THEN CLICK ON THIS ITEM]"
+	}
+	"ItemBotsPrefixDeleteCT"	
+	{
+    "#format"   "{1:s}"
+		"ru"		"Убрать текущий клан тег у (КТ) ботов"
+		"en"		"remove current clan tag on (CT) bots"
+	}
+	"ItemBotsPrefixDeleteTR"	
+	{
+    "#format"   "{1:s}"
+		"ru"		"Убрать текущий клан тег у (Т) ботов"
+		"en"		"remove current clan tag on (T) bots"
+	}
+	"ItemBotsPrefixOnOff"	
+	{
+		"ru"		"Включить/выключить префиксы у всех ботов"
+		"en"		"enable/disable prefixes for all bots"
+	}
+
+	"HintHelmetDisabled"	
+	{
+		"ru"		"Шлем запрешен\nвы зря потратили деньги =)"
+		"en"		"Helmet Disabled by Admin! =)"
+	}
+	"HintBotsHpAmount"
+	{
+		"ru"		"Количество здоровья у ботов"
+		"en"		"Bots Health Amount"
+	}
+	"HintBotsArmrAmount"
+	{
+		"ru"		"Количество брони у ботов"
+		"en"		"Bots Armor Amount"
+	}
+	"HintHumansHpAmount"
+	{
+		"ru"		"Количество здоровья у игроков"
+		"en"		"Humans Health Amount"
+	}
+	"HintHumansArmrAmount"
+	{
+		"ru"		"Количество брони у игроков"
+		"en"		"Humans Armor Amount"
+	}
+
+	"ChatBotsKill"	
+	{
+		"ru"		"Боты убиты"
+		"en"		"all bots killed"
+	}
+	"ChatBotsKick"	
+	{
+		"ru"		"Боты кикнуты"
+		"en"		"all bots kicked"
+	}
+	"ChatBotsCTKick"	
+	{
+		"ru"		"Имена у ботов Контр - террористов изменены"
+		"en"		"Counter - terrorists bots names changed"
+	}
+	"ChatBotsCTKickNotFound"	
+	{
+		"ru"		"Боты Контр - террористы не найдены"
+		"en"		"Counter - terrorists bots not found"
+	}
+	"ChatBotsTKick"	
+	{
+		"ru"		"Имена у ботов Террористов изменены"
+		"en"		"Terrorists bots names changed"
+	}
+	"ChatBotsTKickNotFound"	
+	{
+		"ru"		"Боты Террористы не найдены"
+		"en"		"Terrorists bots not found"
+	}
+	"ChatBalanceOn"	
+	{
+		"ru"		"Автобаланс комманд (mp_autoteambalance) включен"
+		"en"		"autoteambalance (mp_autoteambalance) enabled"
+	}
+	"ChatBalanceOff"	
+	{
+		"ru"		"Автобаланс комманд (mp_autoteambalance) выключен"
+		"en"		"autoteambalance (mp_autoteambalance) disabled"
+	}
+	"ChatBotDifficultyExperts"	
+	{
+		"ru"		"Сложность ботов ЭКСПЕРТЫ"
+		"en"		"bot skill EXPERTS"
+	}
+	"ChatBotDifficultyHard"	
+	{
+		"ru"		"Сложность ботов СЛОЖНЫЕ"
+		"en"		"bot skill HARD"
+	}
+	"ChatBotDifficultyNormal"	
+	{
+		"ru"		"Сложность ботов НОРМАЛЬНЫЕ"
+		"en"		"bot skill NORMAL"
+	}
+	"ChatBotDifficultyEasy"	
+	{
+		"ru"		"Сложность ботов НУБЫ"
+		"en"		"bot skill NOOBS"
+	}
+	"ChatBotAutokillOn"
+	{
+		"ru"		"Auto kill включен (когда живиых игроков не остается боты автоматически ...)"
+		"en"		"auto kill enabled(if all humans died, bots auto slaying)"
+	}
+	"ChatBotAutokillOff"
+	{
+		"ru"		"Auto kill выключен"
+		"en"		"auto kill disabled"
+	}
+	"ChatBotAutokillBombPlantedOn"
+	{
+		"ru"		"Auto kill сработает (даже если установлена бомба)"
+		"en"		"auto kill bots(even though bomb is planted)"
+	}
+	"ChatBotAutokillBotPlantedOff"
+	{
+		"ru"		"Auto kill не сработает (если установлена бомба! то есть боты могут разминировать бомбу)"
+		"en"		"not auto kill bots(if bomb is planted, bots may diffuse bomb)"
+	}
+	"ChatBotPingOn"
+	{
+		"ru"		"Маскировка пингом включена (вместо надписи (BOT) в scoreboard показывается пинг"
+		"en"		"bots ping enabled (changed (BOT) in scoreboard panel to ping (mask)"
+	}
+	"ChatBotPingOff"
+	{
+		"ru"		"Маскировка пингом выключена"
+		"en"		"bots ping disabled"
+	}
+	"ChatBotHelmetOn"
+	{
+		"ru"		"Шлем у ботов разрещен"
+		"en"		"bots helmet enabled"
+	}
+	"ChatBotHelmetOff"
+	{
+		"ru"		"Шлем у ботов запрещен"
+		"en"		"bots helmet disabled"
+	}
+	"ChatHumansHelmetOn"
+	{
+		"ru"		"Шлем у игроков разрещен"
+		"en"		"humans helmet enabled"
+	}
+	"ChatHumansHelmetOff"
+	{
+		"ru"		"Шлем у игроков запрещен"
+		"en"		"humans helmet disabled"
+	}
+	"ChatPrefixInChatForCt"
+	{
+		"ru"		"Введите ПРЯМО СЕЙЧАС в ЧАТЕ префикс для ботов [КОНТР - TЕРРОРИСТОВ]"
+		"en"		"Write RIGHT NOW in CHAT prefix for [COUNTER - TERRORISTS] bots"
+	}
+	"ChatPrefixInChatForT"
+	{
+		"ru"		"Введите ПРЯМО СЕЙЧАС в ЧАТЕ префикс для ботов [TЕРРОРИСТОВ]"
+		"en"		"Write RIGHT NOW in CHAT prefix for [TERRORISTS] bots"
+	}
+	"ChatPrefixInChatLong"
+	{
+    "#format"   "{1:i},{2:i}"
+		"ru"		"Вы ввели много символов - {1} [МАКСИМУМ {2}] введите заново!"
+		"en"		"You entered much symbols - {1} [MAX {2}] will enter anew!"
+	}
+}
